@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">  <!-- to specify the language we are using in our web site -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--captured in info-->
+    <link rel="stylesheet" href="Auth.css">
+    <title>Butter</title>
+</head>
+<body>
+    <section>
+      <div class="box"> 
+        <!-- <div class="cercle" style="--i:0;"></div>
+        <div class="cercle" style="--i:1;"></div>
+        <div class="cercle" style="--i:2;"></div>
+        <div class="cercle" style="--i:3;"></div>
+        <div class="cercle" style="--i:4;"></div>
+        <div class="cercle" style="--i:5;"></div>
+        <div class="cercle" style="--i:6;"></div>
+        <div class="cercle" style="--i:7;"></div>
+        <div class="cercle" style="--i:8;"></div>
+        <div class="cercle" style="--i:9;"></div>
+        <div class="cercle" style="--i:10;"></div> -->
+        <div class="login-button" onclick="login()">
+            <img class="image" src="user.png"/>
+        </div>
+        <div class="container hide">
+            <div class="form">
+                <h2>Login Form</h2>
+                <form action="inputBox">
+                   <div class="inputBox"> 
+                    <input type="text" placeholder="Username">
+                   </div>
+                   <div class="inputBox"> 
+                    <input type="password" placeholder="password">
+                   </div>
+                   <div class="inputBox">
+                       <input type="submit" value="Sign Up">
+                   </div>
+                   <p class="forgot">Forgot password<a href="#">Click here</a></p>
+                    <p class="signup">Don't have an account?<a href="#" onclick="change()">Login </a></p>                   
+                </form>
+            </div>
+            <div class="form hide">
+                <h2>Sign Up Form</h2>
+                <form action="inputBox">
+                    <div class="inputBox">
+                      <input type="text" placeholder="Username">
+                    </div>
+                    <div class="inputBox">
+                      <input type="email" 
+                      placeholder="email">
+                    </div>
+                    <div class="inputBox">
+                      <input type="password" placeholder="password">
+                    </div>
+                    <div class="inputBox">
+                        <input type="password" placeholder="confirm password">
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" value="Sign Up">
+                    </div>
+                    <p class="signup">You Already Have An account?<a href="#" onclick="change()">Login</a></p>
+                </form>
+            </div>
+        </div>
+      </div> 
+    </section>
+    <script src="Auth.js"></script>
+</body>
+</html>
